@@ -6,6 +6,7 @@
 		position:sticky;
 		top: 6;
 	}
+	ul.menu, ul.submenu{ padding:0; }
 
 	ul.menu>li, ul.menu>li>ul.submenu>li{
 		display:block;
