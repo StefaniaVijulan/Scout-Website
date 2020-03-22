@@ -1,0 +1,48 @@
+
+	nav{
+		margin: 0;
+		padding: 0;
+		width:97%;
+		position:sticky;
+		top: 6;
+	}
+
+	ul.menu>li, ul.menu>li>ul.submenu>li{
+		display:block;
+		font-size:1rem;
+		font-weight:bold;
+		height:1.8rem;
+		line-height:150%;
+		text-align:center;		
+		list-style-type:none;
+		overflow:hidden;
+		
+	}
+	ul.menu>li{
+	 float:left;
+	 width:20%;
+	 background:black;
+	  opacity: .8;
+	}
+	ul.submenu>li{
+	 width:100%;
+	 background: black;
+	 opacity: .8;
+
+	}
+	ul.menu>li>a, ul.submenu>li>a{
+		display:block;
+		height:	100%;
+		text-decoration:none;
+		color:white;
+	}
+	ul.menu>li>ul.submenu{
+		position:relative;
+		top:0px;
+	}
+	ul.menu>li>a:hover, ul.submenu>li>a:hover{
+		background:green;
+	}
+	ul.menu>li:hover{
+		overflow:visible;
+	}

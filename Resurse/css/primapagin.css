@@ -1,0 +1,16 @@
+body{
+	background-image: url("../Poze/p-f-i.jpg") ;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+p{	
+	text-align:center;
+	font-size: 19px;
+	position: relative;
+	max-width: 1200px;
+	padding: 30px;
+	background:rgba(255,255,255,.2);
+	box-shadow: 0 5px 5px rgba(0,0,0,.5);
+}
+
