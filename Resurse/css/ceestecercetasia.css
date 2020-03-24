@@ -1,0 +1,49 @@
+.coloane {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color:rgba(0, 255,0, 0);
+  grid-row-gap:25px;
+  grid-column-gap:25px;
+  padding: 5px;
+  margin: 150px;
+}
+
+.ocol {
+	padding: 50px;
+	margin: 20px;
+	background-color:white;
+	opacity: .8;
+	font-size: 15px;
+	text-align: center;
+	box-shadow:black 2px 2px  20px;
+}
+img{
+	height:215px;
+	width:315px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	box-shadow:black 2px 2px  30px;
+}
+
+/*footer*/
+
+address{
+	color: white;
+	text-align: center;
+	text-shadow: 1px 1px black;
+}
+/*aliniere*/
+main>section>h2{
+	text-align: center;
+	font-size: 30px;
+}
+/*fundal*/
+body{
+	background-image: url("../Poze/cec.JPG") ;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+
+}
