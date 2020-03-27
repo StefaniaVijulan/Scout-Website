@@ -5,21 +5,21 @@
   grid-row-gap:25px;
   grid-column-gap:25px;
   padding: 5px;
-  margin: 50px;
+  margin: 40px;
 }
 
 .ocol {
 	padding: 50px;
-	margin: 20px;
+	margin: 15px;
 	background-color:white;
 	opacity: .8;
-	font-size: 15px;
+	font-size: 13px;
 	text-align: center;
 	box-shadow:black 2px 2px  20px;
 }
 img{
-	height:215px;
-	width:315px;
+	height:150px;
+	width:275px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: auto;
@@ -32,4 +32,6 @@ body{
 	background-image: url("../Poze/cec.JPG") ;
 	background-size: cover;
 	background-repeat: no-repeat;
+
+
 }
