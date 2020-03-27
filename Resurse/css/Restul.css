@@ -100,6 +100,13 @@ figure.poza4>img{
 	width:25%;
 	height:20%;
 }
-figure.poza3>img:hover, figure.poza2>img:hover, figure.poza1>img:hover, figure.poza4>img:hover{
+figure.poza1>img:hover{
+	 transform: scale(1.5);
+}
+figure.poza2>img:hover{
+	 transform: scale(1.5);
+}figure.poza3>img:hover{
+	 transform: scale(1.5);
+}figure.poza4>img:hover{
 	 transform: scale(1.5);
 }
