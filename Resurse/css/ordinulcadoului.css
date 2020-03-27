@@ -1,0 +1,43 @@
+body{
+	background-image: url("../Poze/da.jpg") ;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color:white;
+	text-shadow: 3px 1px 3px black;
+	
+}
+h2{color:red;}
+.harta{
+	text-align:center;
+	
+}
+figure.harta>img{
+	width:350px;
+	height:200px;
+}
+figure.harta>img:hover{
+	 transform: scale(1.8);
+}
+.poza1{
+		width:50%;
+		float:left;
+		
+	}
+.poza2{
+	width:50%;
+	float:left;
+}
+figure.poza1>img{
+	border-radius:5px;
+	margin-left:200px;
+	width:300px;
+	height:300px;
+	}
+figure.poza2>img{
+	border-radius:5px;
+	margin-left:100px;
+	width:300px;
+	height:300px;
+}
+.scris1{margin-left:270px;}
+.scris2{margin-left:100px;}

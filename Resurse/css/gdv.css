@@ -1,31 +1,15 @@
-.coloane {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  background-color:rgba(0, 255,0, .8);
-  grid-column-gap:50px;
-  padding: 5px;
-  margin: 15px;
+body{
+	background-image: url("../Poze/poza.JPG") ;
+	background-size: cover;
+	background-repeat: no-repeat;
+	 
+	
 }
-
-.ocol {
-	padding: auto;
-	margin: 20px;
-	background-color:white;
-	opacity: .8;
-	font-size: 15px;
-	text-align: center;
-	box-shadow:black 2px 2px  20px;
+figure{
+	font-size:16px;
+	text-align:center;
 }
-
-.a{
-	height:115px;
-	width:315px;
-
-	box-shadow:black 2px 2px  30px;
-}
-
-
-main>section>h2{
-	text-align: center;
-	font-size: 30px;
-}
+p{	font-size: 17px;
+	text-align: center; 
+	margin-left: 25px; 
+	margin-right: 25px;}
