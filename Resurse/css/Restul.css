@@ -1,0 +1,105 @@
+	
+/*aliniere numele centruui*/
+h1{
+	text-align: center;
+	font-family: Apple Chancery, cursive;
+}
+h2{
+	font-size:30px;
+	text-align:center;
+}
+h3{
+	font-size:25px;
+	text-align:center;
+}
+p{	font-size: 17px;
+	text-align: center; 
+	margin-left: 25px; 
+	margin-right: 25px;}
+/*footer*/
+
+address{
+	color: white;
+	text-align: center;
+	text-shadow: 1px 1px 3px black;
+}
+/*aliniere titlulri*/
+.istoric, .ceecerce, .festivalul, .index, .ordincad, .zambet, .grupe, .martisor{
+	text-align: center;
+	font-size: 40px;
+}
+/*fundal*/
+
+body{
+	background-image: url("../Poze/ist1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	color:white;
+
+}
+/*grid*/
+.coloane {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color:rgba(0, 255,0, 0);
+  grid-row-gap:25px;
+  grid-column-gap:25px;
+  padding: 5px;
+  margin: 40px;
+}
+
+.ocol {
+	padding: 50px;
+	margin: 15px;
+	background-color:black;
+	opacity: .8;
+	font-size: 13px;
+	text-align: center;
+	box-shadow:black 2px 2px  20px;
+}
+img{
+	height:150px;
+	width:275px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	box-shadow:black 2px 2px  30px;
+}
+
+.poza1{
+		width:50%;
+		float:left;
+		
+	}
+.poza2{
+	width:50%;
+	float:left;
+}
+figure.poza1>img{
+	border-radius:10px;
+	margin-left:200px;
+	width:330px;
+	height:250px;}
+figure.poza2>img{
+	border-radius:10px;
+	margin-left:110px;
+	width:330px;
+	height:250px;
+}
+.scris1{margin-left:270px;}
+.scris2{margin-left:200px;}
+.poza3, .poza4{text-align: center;}
+figure.poza3>img{
+	border-radius:10px;
+	width:20%;
+	height:20%;
+}
+figure.poza4>img{
+	border-radius:10px;
+	width:25%;
+	height:20%;
+}
+figure.poza3>img:hover{
+	 transform: scale(1.5);
+}
