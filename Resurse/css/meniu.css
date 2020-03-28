@@ -31,12 +31,12 @@
 	 float:left;
 	 width:20%;
 	 background:black;
-	  opacity: .8;
+
 	}
 	ul.submenu>li{
 	 width:100%;
 	 background: black;
-	 opacity: .8;
+
 
 	}
 	ul.menu>li>a, ul.submenu>li>a{
@@ -93,6 +93,7 @@
 	}
 	#meniusus{
 		top:1.8rem;
+
 	}
 	ul.menu>li>ul.submenu:last-child{
 		top:0rem;
