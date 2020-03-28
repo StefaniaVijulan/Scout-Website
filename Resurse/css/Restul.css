@@ -1,24 +1,28 @@
 	
-/*aliniere numele centruui*/
-h1{
+/*aliniere*/
+html {
+  font-size:18px;
+}
+h1{ font-size:2rem;
 	text-align: center;
 	font-family: Apple Chancery, cursive;
 }
 h2{
-	font-size:30px;
+	font-size:1.4rem;
 	text-align:center;
 }
 h3{
-	font-size:25px;
+	font-size:1.3rem;
 	text-align:center;
 }
-p{	font-size: 17px;
+p{	font-size:0.7rem;
 	text-align: center; 
 	margin-left: 25px; 
 	margin-right: 25px;}
 /*footer*/
 
 address{
+	font-size:0.7rem;
 	color: white;
 	text-align: center;
 	text-shadow: 1px 1px 3px black;
@@ -26,7 +30,7 @@ address{
 /*aliniere titlulri*/
 .istoric, .ceecerce, .festivalul, .index, .ordincad, .zambet, .grupe, .martisor{
 	text-align: center;
-	font-size: 40px;
+	font-size: 1.5rem;
 }
 /*fundal*/
 
@@ -45,7 +49,7 @@ body{
   grid-row-gap:25px;
   grid-column-gap:25px;
   padding: 5px;
-  margin: 40px;
+  margin: 30px;
 }
 
 .ocol {
@@ -60,16 +64,16 @@ body{
 img{
 	height:150px;
 	width:275px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: auto;
-	margin-bottom: auto;
+
 	box-shadow:black 2px 2px  30px;
 }
-
+img:hover{
+		 transform: scale(1.8);
+}
+/*poze*/
 .poza1{
-		width:50%;
-		float:left;
+	width:50%;
+	float:left;
 		
 	}
 .poza2{
@@ -78,35 +82,36 @@ img{
 }
 figure.poza1>img{
 	border-radius:10px;
-	margin-left:200px;
-	width:330px;
-	height:250px;}
+	margin-left:250px;
+	width:13rem;
+	height:13rem;}
 figure.poza2>img{
 	border-radius:10px;
-	margin-left:110px;
-	width:330px;
-	height:250px;
+	margin-left:125px;
+	width:13rem;
+	height:13rem;
 }
-.scris1{margin-left:270px;}
+.scris1{margin-left:300px;}
 .scris2{margin-left:200px;}
+
 .poza3, .poza4{text-align: center;}
 figure.poza3>img{
 	border-radius:10px;
-	width:20%;
-	height:20%;
+	width:13rem;
+	height:13rem;
 }
 figure.poza4>img{
 	border-radius:10px;
-	width:25%;
-	height:20%;
+	width:25rem;
+	height:12.5rem;
 }
 figure.poza1>img:hover{
 	 transform: scale(1.5);
 }
 figure.poza2>img:hover{
-	 transform: scale(1.5);
+	 transform: scale(1.2);
 }figure.poza3>img:hover{
-	 transform: scale(1.5);
+	 transform: scale(1.2);
 }figure.poza4>img:hover{
-	 transform: scale(1.5);
+	 transform: scale(1.2);
 }

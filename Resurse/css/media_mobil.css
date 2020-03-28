@@ -1,0 +1,51 @@
+@media only screen and (max-width: 650px)
+{html{
+	font-size:10px;
+}
+	/*aliniere*/
+
+/*grid*/
+	.coloane {
+		grid-template-columns: auto;
+}
+	.ocol {
+	padding: 9px;
+	margin: 0px;
+	
+	font-size: 0.5rem;
+	}
+	img{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0px;
+	margin-bottom:0px;
+	height:35px;
+	width:55px;
+
+	}
+/*poze*/
+	
+	.poza1{
+		width:100%;
+		float:none;
+		text-align:center;
+	}
+	.poza2{
+		width:100%;
+		float:none;
+		text-align:center;
+	}
+	.scris1, .scris2{margin-left:15px;
+					font-size:0.8rem;}
+
+	.poza3, .poza4{text-align: center;}
+	
+	figure.poza1>img{
+		margin-left:5px;
+		
+		}
+	figure.poza2>img{
+	margin-left:4px;
+	}
+}
+
