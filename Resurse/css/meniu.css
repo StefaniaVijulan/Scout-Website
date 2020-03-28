@@ -81,3 +81,20 @@
 		
 	}
 /*media*/
+
+@media only screen and (max-width: 1200px)
+{
+	ul.menu>li{width:33.33%}
+	
+	ul.menu>li:nth-of-type(4){
+		width: 50%;}
+	ul.menu>li:nth-of-type(5){
+		width:50%;
+	}
+	ul.menu>li>ul.submenu{
+		top:1.8rem;
+	}
+	ul.menu>li>ul.submenu:last-child{
+		top:0rem;
+	}
+}
