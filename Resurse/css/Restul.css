@@ -17,16 +17,17 @@ h3{
 }
 p{	font-size:0.8rem;
 	text-align: center; 
-	margin-left: 25px; 
-	margin-right: 25px;}
+	margin-left: 55px; 
+	margin-right: 55px;}
 /*footer*/
 
 address{
-	font-size:0.7rem;
+	font-size:1rem;
 	color: white;
 	text-align: center;
 	text-shadow: 1px 1px 3px black;
 }
+
 /*aliniere titlulri*/
 .istoric, .ceecerce, .festivalul, .index, .ordincad, .zambet, .grupe, .martisor{
 	text-align: center;
@@ -59,19 +60,16 @@ body{
 	opacity: .8;
 	font-size: 15px;
 	text-align: center;
-	box-shadow:black 2px 2px  20px;
+	box-shadow:white 2px 2px  20px;
 }
 img{
-	margin-left:auto;
-	margin-right:auto;
-	margin-top:auto;
-	margin-bottom:auto;
-	height:250px;
-	width:375px;
-	box-shadow:black 2px 2px  30px;
+	margin:auto;
+	height:200px;
+	width:325px;
+	box-shadow:white 2px 2px  30px;
 }
 img:hover{
-		 transform: scale(1.8);
+		 transform: scale(1.5);
 }
 /*poze*/
 .poza1{
@@ -84,21 +82,22 @@ img:hover{
 	float:left;
 }
 figure.poza1>img{
+	margin-left:15rem;
 	border-radius:10px;
-	margin-left:250px;
-	width:13rem;
-	height:13rem;}
+	width:15rem;
+	height:15rem;}
 figure.poza2>img{
+	margin-left:10rem;
+	width:15rem;
+	height:15rem;
 	border-radius:10px;
-	margin-left:125px;
-	width:13rem;
-	height:13rem;
 }
-.scris1{margin-left:300px;}
-.scris2{margin-left:200px;}
+.scris1{margin-left:18rem;}
+.scris2{margin-left:13rem;}
 
 .poza3, .poza4{text-align: center;}
 figure.poza3>img{
+	position:center;
 	border-radius:10px;
 	width:13rem;
 	height:13rem;
