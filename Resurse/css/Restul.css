@@ -82,24 +82,24 @@ img:hover{
 	float:left;
 }
 figure.poza1>img{
-	margin-left:15rem;
+	margin-left:16rem;
 	border-radius:10px;
 	width:15rem;
 	height:15rem;}
 figure.poza2>img{
-	margin-left:10rem;
+	margin-left:5rem;
 	width:15rem;
 	height:15rem;
 	border-radius:10px;
 }
-.scris1{margin-left:18rem;}
-.scris2{margin-left:13rem;}
+.scris1{margin-left:20rem;}
+.scris2{margin-left:10rem;}
 
 .poza3, .poza4{text-align: center;}
 figure.poza3>img{
 	position:center;
 	border-radius:10px;
-	width:13rem;
+	width:17rem;
 	height:13rem;
 }
 figure.poza4>img{
@@ -108,12 +108,12 @@ figure.poza4>img{
 	height:12.5rem;
 }
 figure.poza1>img:hover{
-	 transform: scale(1.5);
+	 transform: scale(1.1);
 }
 figure.poza2>img:hover{
-	 transform: scale(1.2);
+	 transform: scale(1.1);
 }figure.poza3>img:hover{
-	 transform: scale(1.2);
+	 transform: scale(1.1);
 }figure.poza4>img:hover{
-	 transform: scale(1.2);
+	 transform: scale(1.1);
 }

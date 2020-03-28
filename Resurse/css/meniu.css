@@ -21,7 +21,7 @@
 		font-size:1rem;
 		font-weight:bold;
 		height:1.8rem;
-		line-height:150%;
+		line-height:170%;
 		text-align:center;		
 		list-style-type:none;
 		overflow:hidden;
@@ -81,18 +81,3 @@
 		
 	}
 /*media*/
-@media only screen and (max-width: 1000px)
-{
-	ul.menu>li{
-		 width:33.33%;
-		}
-		ul.menu>li:hover ul.submenu{
-			width:100vw;
-			position:fixed;
-			left:0px;
-			right:0px;
-			top:12rem;
-			border-top:1px solid ;
-			border-bottom:1px solid black;
-		}
-}
