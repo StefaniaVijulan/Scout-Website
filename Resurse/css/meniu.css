@@ -91,11 +91,10 @@
 	ul.menu>li:nth-of-type(5){
 		width:50%;
 	}
+	ul.menu>li>ul.submenu{
+	}
 	#meniusus{
 		top:1.8rem;
 
-	}
-	ul.menu>li>ul.submenu:last-child{
-		top:0rem;
 	}
 }
