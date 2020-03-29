@@ -62,13 +62,13 @@ body{
 	text-align: center;
 	box-shadow:white 2px 2px  20px;
 }
-imga{
+.imaga{
 	margin:auto;
 	height:200px;
 	width:325px;
 	box-shadow:white 2px 2px  30px;
 }
-imga:hover{
+.imaga:hover{
 		 transform: scale(1.5);
 }
 /*poze*/
@@ -175,4 +175,3 @@ figure.poza2>img:hover{
 		left:-1400%;
 	}
 }
-

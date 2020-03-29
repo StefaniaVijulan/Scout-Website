@@ -31,7 +31,7 @@ p{	font-size:1.7rem;}
 	
 	font-size: 2rem;
 	}
-	img{
+	.imaga{
 	margin-left:auto;
 	margin-right:auto;
 	margin-top:0px;
@@ -65,11 +65,21 @@ p{	font-size:1.7rem;}
 	margin-left:2px;
 	}
 }
-
-/*galerie*/
-
-#containeranimatie{
+/*top*/
+.top{
+		position: fixed;
+		width:25px;
+		height:25px;
+		background: black;
+		bottom: 40px;
+		right: 20px;
 		
-}
-
+		text-decoration:none;
+		text-align:center;
+		line-height:25px;
+		color: white;
+		font-size: 15px;
+		opacity: .6;
+		
+	}
 
