@@ -29,7 +29,7 @@ address{
 }
 
 /*aliniere titlulri*/
-.istoric, .ceecerce, .festivalul, .index, .ordincad, .zambet, .grupe, .martisor{
+.istoric, .ceecerce, .festivalul, .index, .ordincad, .zambet, .grupe, .martisor, .galerie{
 	text-align: center;
 	font-size: 1.9rem;
 }
@@ -62,13 +62,13 @@ body{
 	text-align: center;
 	box-shadow:white 2px 2px  20px;
 }
-img{
+imga{
 	margin:auto;
 	height:200px;
 	width:325px;
 	box-shadow:white 2px 2px  30px;
 }
-img:hover{
+imga:hover{
 		 transform: scale(1.5);
 }
 /*poze*/
@@ -117,3 +117,62 @@ figure.poza2>img:hover{
 }figure.poza4>img:hover{
 	 transform: scale(1.1);
 }
+
+/*galerie*/
+.textgalerie{
+	margin-left:5rem;
+	margin-right:5rem;
+	font-size:1rem;
+	font-family: Bradley Hand, cursive;
+}
+
+#containeranimatie{
+	position:relative;
+	overflow:hidden;
+	border:1px solid black;
+	width:25rem;
+	height:18.75rem;
+	margin-left:auto;
+	margin-right:auto;
+	box-sizing:content-box;
+	box-shadow:white 2px 2px  30px;
+}
+
+#derulant{
+	display:flex;
+	flex-wrap:nowrap;
+	position: absolute;
+	animation-name:go;
+	animation-direction:alternate;
+	animation-timing-function:linear;
+	animation-iteration-count:infinite;
+	animation-duration:60s;
+	
+}
+#derulant>*{
+	flex-shrink: 0;
+	position:relative;
+}
+#containeranimatie figcaption{
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:auto;
+  font-size:1.5em;
+  background:rgba(200,200,200,0.5);
+  text-align:center;
+}
+
+#containeranimatie *{
+  height:100%;
+  width:auto;
+}
+@keyframes go{
+	0%{
+    	left:0px;
+    }
+	100%{
+		left:-1400%;
+	}
+}
+
