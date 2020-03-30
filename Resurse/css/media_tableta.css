@@ -1,4 +1,4 @@
-@media screen and (min-width:650px) and (max-width:1200px)
+@media screen and (min-width:650px) and (max-width:1100px)
 {
 	imga{
 		height:225px;
@@ -17,4 +17,13 @@ figure.poza2>img{
 }
 .scris1{margin-left:150px;}
 .scris2{margin-left:100px;}
+
+/*audio*/
+audio { 
+  width: 150px; 
+  box-shadow: 5px 5px 20px rgba(0,0, 0, 0.4);
+  border-radius: 90px;
+	padding:1rem;
+	margin-left:28vh;
+}
 }
