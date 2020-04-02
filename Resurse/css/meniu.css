@@ -18,10 +18,10 @@
 
 	ul.menu>li, ul.menu>li>ul.submenu>li{
 		display:block;
-		font-size:1rem;
+		font-size:0.8rem;
 		font-weight:bold;
 		height:1.8rem;
-		line-height:170%;
+		line-height:260%;
 		text-align:center;		
 		list-style-type:none;
 		overflow:hidden;
@@ -30,12 +30,12 @@
 	ul.menu>li{
 	 float:left;
 	 width:16.66%;
-	 background:black;
+	 background:linear-gradient(rgb(14, 54, 176, .2), rgb(135, 201, 255, .2));
 
 	}
 	ul.submenu>li{
 	 width:100%;
-	 background: black;
+	 background:linear-gradient(rgb(14, 54, 176, .2), rgb(135, 201, 255, .2));
 
 
 	}
@@ -50,7 +50,7 @@
 		top:0px;
 	}
 	ul.menu>li>a:hover, ul.submenu>li>a:hover{
-		background:green;
+		background:#0044cc;
 	}
 	ul.menu>li:hover{
 		overflow:visible;
@@ -82,7 +82,7 @@
 	}
 /*media*/
 
-@media only screen and (max-width: 1200px)
+@media only screen and (max-width: 900px)
 {
 	ul.menu>li{
 		width:33.33%}
@@ -94,8 +94,8 @@
 
 	}
 	ul.menu>li, ul.menu>li>ul.submenu>li{
-		height:2.3rem;
-		line-height:180%;
-		font-size:1.2rem
+		height:2.2rem;
+		line-height:300%;
+		font-size:0.9rem
 	}
 }

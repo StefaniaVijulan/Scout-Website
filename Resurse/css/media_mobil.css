@@ -1,4 +1,4 @@
-@media only screen and (max-width: 650px)
+@media only screen and (max-width: 400px)
 {
 	
 
@@ -29,7 +29,7 @@ p{	font-size:1.7rem;}
 	padding: 9px;
 	margin: 0px;
 	
-	font-size: 2rem;
+	font-size:1.5rem;
 	}
 	.imaga{
 	margin-left:auto;
@@ -67,9 +67,64 @@ p{	font-size:1.7rem;}
 
 /*audio*/
 audio { 
-  width: 100px; 
+  width:30%; 
   box-shadow: 5px 5px 20px rgba(0,0, 0, 0.4);
   border-radius: 90px;
 	padding:1rem;
-	margin-left:18vh;
-}}
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+/*---TABEL---*/
+
+table,table tr{
+			border:none;
+			display:block;
+		}
+table td{
+		
+		display:block;
+		padding:0.3rem;
+		box-sizing:border-box;
+		}
+table thead{
+			display:none;
+		}
+
+table tbody td:nth-child(1)::before{
+			content:"Grupa de varsta: ";
+		}
+table tbody td:nth-child(2)::before{
+			content:"Nr. fete: ";
+		}
+table tbody td:nth-child(3)::before{
+			content:"Nr.baieti: ";
+		}
+table tbody td:nth-child(4)::before{
+			content:"Nr. patrule: ";
+		}
+		
+table td{
+			border-bottom:none;
+			border-top:none;
+			float:left;
+			width:100%;
+
+		}
+table td::before{
+			float:left;
+			width:60%;
+			font-weight:bold;
+
+		}
+	
+table td:last-child{
+			border-bottom:0.2rem solid #0039e6;
+		}
+table tr:first-child  td:first-child{
+			border-top:0.2rem solid #0039e6;
+		}
+table tr:last-child td:last-child{
+			border-bottom:0.2rem solud #0039e6;
+		}
