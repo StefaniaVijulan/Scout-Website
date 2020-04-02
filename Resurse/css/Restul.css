@@ -44,7 +44,7 @@ footer{
 .bodym{
 	counter-reset: section;
 }
-.bodym div::before {
+.ist::before {
 			counter-increment: section;
 			content:counter(section) ". ";
 		}
@@ -134,7 +134,7 @@ figure.poza2>img{
 	border-radius:2rem;
 }
 figure.poza3>img{
-	position:center;
+	margin: 0 auto;
 	border-radius:2rem;
 	width:15rem;
 	height:15rem;
@@ -210,7 +210,7 @@ a:link, a:visited{
 	animation-direction:alternate;
 	animation-timing-function:linear;
 	animation-iteration-count:infinite;
-	animation-duration:21s;
+	animation-duration:28s;
 	
 }
 
