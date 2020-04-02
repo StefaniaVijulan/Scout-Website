@@ -1,46 +1,47 @@
 @media only screen and (max-width: 400px)
 {
-	
-
-	
 html{
 	font-size:10px;
 }
 
-h1{ font-size:2.5rem;
-}
-h2{
-	font-size:2.2rem;
-	text-align:center;
-}
-h3{
-	font-size:2rem;
-}
+
+/*---aliniere----*/
+
+
+h1{ font-size:2.5rem;}
+
+h2{	font-size:2.2rem;
+	text-align:center;}
+	
+h3{	font-size:2rem;}
+
 p{	font-size:1.7rem;}
 
 .istoric, .ceecerce, .festivalul, .index, .ordincad, .zambet, .grupe, .martisor, .galerie{
 	font-size: 2.5rem;
 }
-/*grid*/
+				
+				
+				/*----grid----*/
+				
+				
 	.coloane {
 		grid-template-columns: auto;
 }
 	.ocol {
 	padding: 9px;
 	margin: 0px;
-	
 	font-size:1.5rem;
 	}
+	
 	.imaga{
-	margin-left:auto;
-	margin-right:auto;
-	margin-top:0px;
-	margin-bottom:0px;
-	height:130px;
-	width:170px;
-
+	margin-left:0 auto;
+	height:14rem;
+	width:22rem;
 	}
-/*poze*/
+				
+				
+					/*---poze----*/
 	
 	.poza1{
 		width:100%;
@@ -67,12 +68,8 @@ p{	font-size:1.7rem;}
 
 /*audio*/
 audio { 
-  width:30%; 
-  box-shadow: 5px 5px 20px rgba(0,0, 0, 0.4);
-  border-radius: 90px;
-	padding:1rem;
-	margin-left:auto;
-	margin-right:auto;
+		width:30%; 
+	
 }
 
 
@@ -128,3 +125,5 @@ table tr:first-child  td:first-child{
 table tr:last-child td:last-child{
 			border-bottom:0.2rem solud #0039e6;
 		}
+		
+}

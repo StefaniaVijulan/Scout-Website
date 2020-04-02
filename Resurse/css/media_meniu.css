@@ -1,0 +1,16 @@
+@media only screen and (max-width: 900px)
+{
+	ul.menu>li{
+		width:33.33%}
+	
+	#meniusus{
+		margin:0px;
+		top:2.2rem;
+
+	}
+	ul.menu>li, ul.menu>li>ul.submenu>li{
+		height:2.2rem;
+		line-height:300%;
+		font-size:0.9rem
+	}
+}
